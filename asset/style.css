@@ -81,6 +81,12 @@
     display: flex;
 }
 
+.container
+{
+    width: 80%;
+    margin: auto;
+}
+
 button
 {
     border-radius: 1.25rem;
@@ -88,44 +94,39 @@ button
     border: none;
 }
 
-ul
-{
-    list-style: none;
-    padding: 0px;
-    display: flex;
-    align-items: center;
-}
-
-li
-{
-    margin-left: 3rem;
-}
-
 a
 {
     text-decoration: none;
     color: white;
-    align-self: center;
+    margin-right: 1.5rem;
 }
 
 
 /* Header */
-#header-container
+header
 {
     background-color: var(--dis-primary);
     padding: 0.75rem 2rem;
-    justify-content:space-around
+    justify-content:space-around;
 }
 
-#logo
+.logo
 {
     width: 6rem;
+}
+
+.menu
+{
+    flex-grow: 2;
+    text-align: center;
+    align-content: center;
 }
 
 .accedi
 {
     color: black;
     background-color: white;
+    padding: 0.5rem 1rem;
 }
  
 
@@ -189,13 +190,13 @@ a
 
 .small-container
 {
-    width: 50%;
+   flex-grow: 1;
     height: 300px;
 }
 
 .big-container
 {
-    width: 30%;
+    flex-grow: 0.5;
     height: 300px;
 }
 

@@ -1,17 +1,21 @@
 *{
     margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+:root
+{
+    --dis-primary: #3161E0;
+    --dis-text: #23272A;
+    --dis-secondary-bg: #F6F6F6;
+    --dis-highlight-text: #7289DA;
+    --dis-secondary-button: #8EA1E1;
+    --dis-third-bg: #23272A;
 }
 
 .debug
 {
-    header {
-        background-color:aqua
-    }
-
-    .header-container {
-        background-color:darkgoldenrod;
-        display: flex;
-    }
 
     .jumbotron-container
     {
@@ -23,11 +27,9 @@
         }
     }
 
-    .container,
     #invite-only,
     #fandom
     {
-    background-color: white;
 
         .small-container
             {
@@ -40,15 +42,10 @@
             }
     }
 
-    .container
-    {
-        background-color: lightgrey;
-        
-        .technology
+    .technology
         {
             background-color: green;
         }
-    }
 
     .top-footer
     {
@@ -88,40 +85,59 @@
 
 
 /* Utilities */
+
+.d-flex
+{
+    display: flex;
+}
+
+button
+{
+    border-radius: 1rem;
+    padding: 0.5rem 1.5rem;
+    border: none;
+}
+
 ul
 {
     list-style: none;
     padding: 0px;
     display: flex;
+    align-items: center;
 }
 
 li
 {
-    margin-left: 2px;
+    margin-left: 3rem;
 }
 
 a
 {
     text-decoration: none;
-    color: black;
+    color: white;
+    align-self: center;
 }
 
 
 /* Header */
-header
+#header-container
 {
+    background-color: var(--dis-primary);
     padding: 0.75rem 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:space-around
 }
 
-.header-container {
-    width: 80%;
-    display: flex;
-    justify-content: space-around;
-    padding: 0.2rem;
+#logo
+{
+    width: 8rem;
 }
+
+.accedi
+{
+    color: black;
+    background-color: white;
+}
+ 
 
 /* Main */
 
@@ -141,13 +157,6 @@ header
 }
 
 /* invite-only + fandom + community + technology */
-
-.container
-{
-    padding: 3rem 2rem 3rem 2rem;
-    display: flex;
-    justify-content: center;
-}
 
 #community
 {

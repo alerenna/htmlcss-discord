@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+}
+
+.debug
+{
+    header {
+        background-color:aqua
+    }
+
+    .header-container {
+        background-color:darkgoldenrod;
+        display: flex;
+    }
+
+    .jumbotron-container
+    {
+        background-color: blue;
+        
+        .jumbotron
+        {
+            background-color: rgb(255, 161, 244);
+        }
+    }
+
+    .container,
+    #invite-only,
+    #fandom
+    {
+    background-color: white;
+
+        .small-container
+            {
+                background-color:aqua;
+            }
+
+        .big-container
+            {
+                background-color:pink;
+            }
+    }
+
+    .container
+    {
+        background-color: lightgrey;
+        
+        .technology
+        {
+            background-color: green;
+        }
+    }
+
+    .top-footer
+    {
+        background-color: rgb(39, 39, 39);
+
+        .top-footer-big
+        {
+        background-color: rgb(254, 121, 143);
+        }
+
+        .top-footer-small
+        {
+            background-color: rgb(1, 174, 157);
+        }
+
+    }
+
+    .footer-bottom
+    {
+        background-color: rgb(39, 39, 39);
+
+    #logo-footer {
+        background-color: rgb(254, 121, 143);
+    } 
+
+    #footer-button
+    {
+        background-color: rgb(254, 121, 143);;
+    }
+
+    .footer-bottom-container {
+        background-color: aquamarine;
+    }
+    }
+}
+
+
+
+/* Utilities */
+ul
+{
+    list-style: none;
+    padding: 0px;
+    display: flex;
+}
+
+li
+{
+    margin-left: 2px;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Header */
+header
+{
+    padding: 0.75rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.2rem;
+}
+
+/* Main */
+
+/* Jumbotron */
+
+.jumbotron-container
+{
+    padding: 3rem 2rem 3rem 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.jumbotron
+{
+    width: 60%;
+    height: 300px;
+}
+
+/* invite-only + fandom + community + technology */
+
+.container
+{
+    padding: 3rem 2rem 3rem 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+#community
+{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.small-container
+{
+    width: 50%;
+    height: 300px;
+}
+
+.big-container
+{
+    width: 30%;
+    height: 300px;
+}
+
+.technology
+{
+    width: 80%;
+    height: 600px;
+}
+
+/* Footer */
+
+/* Top Footer */
+
+.top-footer
+{
+    padding: 0.5rem 2rem 1.5rem 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.top-footer-big
+{
+    width: 20%;
+    height: 400px;
+}
+
+.top-footer-small
+{
+    width: 15%;
+    height: 400px;
+}
+
+/* Footer-bottom */
+
+.footer-bottom
+{
+    padding: 1rem 2rem 0rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-bottom-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7rem 0rem;
+}
+

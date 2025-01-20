@@ -85,6 +85,7 @@
 {
     width: 80%;
     margin: auto;
+    align-items: center;
 }
 
 button
@@ -99,6 +100,11 @@ a
     text-decoration: none;
     color: white;
     margin-right: 1.5rem;
+}
+
+.grey-container
+{
+    background-color: var(--dis-secondary-bg);
 }
 
 
@@ -182,28 +188,52 @@ header
 
 /* invite-only + fandom + community + technology */
 
-#community
-{
-    display: flex;
-    flex-direction: row-reverse;
-}
-
 .small-container
 {
-   flex-grow: 1;
-    height: 300px;
+    padding: 5rem;
 }
 
 .big-container
 {
-    flex-grow: 0.5;
-    height: 300px;
+    flex-grow: 2;
+    padding: 5rem;
 }
 
-.technology
+.section-title
 {
-    width: 80%;
-    height: 600px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+#technology
+{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.cta-text
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+    padding: 3rem;
+    background-image: url(./img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: 30rem;
+}
+
+.scarica-per-mac-button
+{
+    background-color: var(--dis-secondary-button);
+    color: white;
+    font-size: 18px;
+    margin-bottom: 5rem;
 }
 
 /* Footer */

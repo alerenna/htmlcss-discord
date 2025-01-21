@@ -129,13 +129,15 @@ header
 
 .small-container
 {
-    padding: 5rem;
+    padding: 3rem;
+    
 }
 
 .big-container
 {
+   
+    padding: 3rem;
     flex-grow: 2;
-    padding: 5rem;
 }
 
 .section-title

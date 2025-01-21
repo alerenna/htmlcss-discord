@@ -59,6 +59,11 @@ a
     rotate: 180deg;
 }
 
+.text-end
+{
+    text-align: end;
+}
+
 
 /* Header */
 header
@@ -242,6 +247,7 @@ select#language option[value="ita"] {background-image: url(./img/ita.png);}
 
 .footer-nav
 {
+    flex-grow: 2;
     flex-direction: column;
 }
 
